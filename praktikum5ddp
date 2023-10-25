@@ -1,0 +1,11 @@
+kendaraan = ["Yamaha Aerox", "Motor", "155 cc", "Silver", "5"]
+merk_kendaraan = "Yamaha"
+harga_kendaraan = "Rp 25.000.000"
+tipe_kendaraan = "Baru"
+
+indeks_motor = kendaraan.index("Motor")
+
+kendaraan.insert(indeks_motor + 1, merk_kendaraan)
+
+kendaraan.append(harga_kendaraan)
+kendaraan.append(tipe_kendaraan)
